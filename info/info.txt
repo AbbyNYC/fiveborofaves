@@ -1,0 +1,97 @@
+Abby 917 208 7113
+Sven 347 242 7908
+Lisandra 718 810 4696
+
+Abby will work on images: colors, font, weblinks and github
+
+Lisandra will work on HTML
+
+Sven will work on CSS
+
+For the footer https://www.nycgo.com/
+
+Restaurants 
+Parks
+Museums 
+
+Welcome to the Team Four site featuring our Five Borough Favorites for dining, parks, and museums.  Of course, there is so much to see and do in NYC...
+we just wanted to build a site that features the best of the best, in our opinion.  Hope you enjoy these places as much as we do!
+
+
+Manhattan
+  Gramercy Tavern https://www.gramercytavern.com/
+  This is one of Abby's favorite restaurants in Manhattan.  She likes to eat in the Tavern near the front as opposed to the back of the restaurant's
+  main dining room.  Gramercy Tavern has the best burgers Abby has ever tried!
+  
+  Central Park https://www.centralpark.com/
+  One of Abby's favorite things in Cenral Park is the Carousel.  
+  
+  Whitney Museum https://whitney.org/
+  This museum is pay what you wish on Friday nights and there are 4 roofs - one on each of the top floors of the museum - with spectacular views of 
+  Manhattan and the New Jersey skyline.
+  
+  For the footer https://www.nycgo.com/boroughs-neighborhoods/manhattan
+  
+Brooklyn 
+  Peter Luger's https://peterluger.com/
+  Lisandra says Luger's is the best place to eat in Brooklyn.  The steaks are amazing!
+  
+  Prospect Park https://www.prospectpark.org/
+  Prospect Park is beautiful and there's always lots of fun things to do there.  It's also adjacent to Lisandra's favorite Brooklyn Museum.
+  
+  Brooklyn Museum https://www.brooklynmuseum.org/
+  With a rotating selection of interesting and informational exhibits, the Brooklym Museum is always a fun place to visit!  One interesting feature is
+  that they have many inventory pieces on "display" in clear glass cases on large shelves.
+  
+  For the footer https://www.nycgo.com/boroughs-neighborhoods/brooklyn
+  
+  
+Queens
+ John Brown Smokehouse https://www.johnbrownseriousbbq.com/
+ Great BBQ spot serving Kansas City-style meats along with sides, salads, beer & wine.  Sven says this place is great!
+ 
+ Corona Park https://www.nycgovparks.org/parks/flushing-meadows-corona-park
+ Corona Park is the home of CitiField where the NY Mets play and you can check out great outdoor concerts!
+ 
+ MOMA PS 1 http://momaps1.org/
+ Moderm art fans will love this place.
+ 
+ For the footer https://www.nycgo.com/boroughs-neighborhoods/queens
+
+
+Staten Island
+  Korzo Klub http://korzorestaurant.com/
+  We don't know too much about Staten Island but we googled this place and it looks great.
+  
+  Clove Lakes Park https://www.nycgovparks.org/parks/clove-lakes-park
+  National Lighthouse Museum http://lighthousemuseum.org/
+  
+  For the footer https://www.nycgo.com/boroughs-neighborhoods/staten-island
+  
+Bronx
+  Tra di Noi on Arthur Avenue http://www.tradinoi.com/
+  NY Botanical Gardens https://www.nybg.org/
+  Bronx Museum  http://www.bronxmuseum.org/
+  
+  For the footer https://www.nycgo.com/boroughs-neighborhoods/the-bronx
+
+COLOR PALETTE
+https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes12
+
+HEX: #eaece5 light grey
+
+HEX: #b2c2bf medium grey
+
+HEX: #c0ded9 light blue
+
+HEX: #3b3a30 charcoal
+
+#fff white
+
+#000 black
+
+#ffa500 orange for the footer
+
+FONT FAMILY DETAILS
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+font-family: 'Poppins', sans-serif;
