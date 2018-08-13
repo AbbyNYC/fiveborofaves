@@ -4,78 +4,125 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width-device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Five Boro Faves</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style-boro.css">
+	<title>FIVEBOROFAVES</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
-    <header>
-	    <h1><a href="index.html">FIVEBOROFAVES</a></h1>
+    <header id="top">
+	    <a href="index.html">
+        <h1>FIVEBOROFAVES</h1>
+        </a>
 	</header>
-	<a id="top"></a>
+
     <nav>
-            <h2><a href="index.html">Home</a></h2>
-            <h2><a href="manhattan.html">Manhattan</a></h2>
-            <h2><a href="brooklyn.html">Brooklyn</a></h2>
-            <h2><a href="queens.html">Queens</a></h2>
-            <h2><a href="bronx.html">The Bronx</a></h2>
-            <h2><a href="statenisland.html">Staten Island</a></h2>
+        <div class="nav-bar">
+            <div class="nav-link">
+                <a href="index.html">
+                    <h2 class="nav-link-text">Home</h2>
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="manhattan.html">
+                    <h2 class="nav-link-text">Manhattan</h2>
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="brooklyn.html">
+                    <h2 class="nav-link-text">Brooklyn</h2>
+                </a>
+            </div>
+             <div class="nav-link">
+                <a href="queens.html">
+                    <h2 class="nav-link-text">Queens</h2>
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="bronx.html">
+                    <h2 class="nav-link-text">The Bronx</h2>
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="statenisland.html">
+                    <h2 class="nav-link-text">Staten Island</h2>
+                </a>
+            </div>
+        </div>
     </nav>
     
     <main>
-        <div>
-            <aside>
-                <a href="#manhattan-park">
-                <h2>Parks</h2>
-                <img src="images/icons/park2.png" alt="Park logo" width="130" height="120">
-                </a>
-                <a href="#manhattan-museum">
-                <h2>Museums</h2>
-                <img src="images/icons/museum.png" alt="NYC logo" width="130" height="120">
-                </a>
-                <a href="#manhattan-restaurant">
-                <h2>Restaurants</h2>
-                <img src="images/icons/dining4.jpg" alt="Restaurant logo" width="130" height="120">
-                </a>
-            </aside>
-        </div>
+        <div class="main-boro">
+            
+            <div class="main-links">
+                    <div class="link">
+                        <a href="#manhattan-park">
+                        <h2 class="link-text">Parks</h2>
+                        <img src="images/icons/park2.jpg" alt="Park logo" width="100">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#manhattan-museum">
+                        <h2 class="link-text">Museums</h2>
+                        <img src="images/icons/museum.jpg" alt="NYC logo" width="100">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#manhattan-restaurant">
+                        <h2 class="link-text">Restaurants</h2>
+                        <img src="images/icons/dining4-test.jpg" alt="Restaurant logo" width="100">
+                        </a>
+                    </div>
+                    <div class="link bottom">
+                        <a href="#top">
+                        <h2 class="link-text">Go to top</h2>
+                        </a>
+                    </div>
+            </div>
         
-            <article>
-                <section id="manhattan-park">
-                <h3>Parks</h3>
-                <img src="images/manhattan/cp.jpg" alt="Central Park" width="300" height="300">
-                <h4>Central Park</h4>
+            <div class="main-info">
+                <div id="manhattan-park" class="section">
+                    <h3>Parks</h3>
+                    <h4>Central Park</h4>
+                    <img src="images/manhattan/cp.jpg" alt="Central Park" height="300">
                     <p>Central Park is an urban park in Manhattan, New York City. It is located between
                     the Upper West Side and Upper East Side, roughly bounded by Fifth Avenue on the east,
                     Central Park West (Eighth Avenue) on the west, Central Park South (59th Street) on the south,
                     and Central Park North (110th Street) on the north.There's so much to do in Central Park.
                     Plan your activities. Visit the <a href="http://www.centralparknyc.org/" target="_blank">Central Park</a>
                     website for more information.</p>
-                </section>
-                <section id="manhattan-museum">
-                <h3>Museums</h3>
-                <img src="images/manhattan/whitneypic.jpg" alt="Whitney Museum" width="300" height="300">
-                <h4>The Whitney Museum of American Art</h4>
+                </div>
+                
+                <div id="manhattan-museum" class="section">
+                    <h3>Museums</h3>
+                    <h4>The Whitney Museum of American Art</h4>
+                    <img src="images/manhattan/whitneypic.jpg" alt="Whitney Museum"  height="300">
                     <p>The Whitney Museum was founded in 1931 by Gertrude Vanderbilt Whitney (1875–1942),
                     a wealthy and prominent American socialite and art patron after whom the museum is named after. To
                     get more information visit <a href="https://whitney.org/" target="_blank">The Whitney Museum of
                     Art</a> website.</p>
-                </section>
-                <section id="manhattan-restaurant">
-                <h3>Restaurants</h3>
-                <img src="images/manhattan/grammercyt.jpg" alt="Gramercy Tavern Restaurant" width="300" height="300">
-                <h4>Gramercy Tavern</h4>
-                    <p>One of America's most beloved restaurant, Gramercy Tavern opened in 1994 by
-                    restaurateur Danny Meyer in a historic landmark building, the restaurant has earned
-                    nine James Beard Awards, including "Outstanding Restaurant" and "Outstanding Chef in America".
-                    Make your reservation today by visiting 
+                </div>
+                
+                <div id="manhattan-restaurant" class="section">
+                    <h3>Restaurants</h3>
+                    <h4>Gramercy Tavern</h4>
+                    <img src="images/manhattan/grammercyt.jpg" alt="Gramercy Tavern Restaurant"  height="300">
+                    <p>One of America's most beloved restaurant, Gramercy Tavern opened in 1994 by restaurateur Danny Meyer in a historic landmark building, the restaurant has earned nine James Beard Awards, including "Outstanding Restaurant" and "Outstanding Chef in America". Make your reservation today by visiting 
                     <a href="https://www.gramercytavern.com/" target="_blank">Gramercy Tavern</a>.</p>
-                </section>
-            </article>
+                </div>
+            </div>
+        </div>
     </main>
-    <a href="#top">Go to top</a>
     <footer>
-       <h2>For more information on this borough, go to:</h2>
-        <a href="https://www.nycgo.com/boroughs-neighborhoods/manhattan" target="_blank"><img src="images/icons/nycgo.jpg" alt="NYC logo" width="90" height="60"></a>
+        <div class="footer">
+            <div class="footer-text">
+                <h2>For more information on this borough, go to:</h2>
+            </div>
+            <div class="footer-link">
+                <a href="https://www.nycgo.com/boroughs-neighborhoods/manhattan" target="_blank">
+                <img src="images/icons/nycgo.jpg" alt="NYC logo" width="100">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

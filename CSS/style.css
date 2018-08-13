@@ -12,21 +12,57 @@ body {
 
 header {
     padding: 20px;
-    background-color: #eaece5;
-    text-align: right;
+    background-color: #b2c2bf;
 }
 
-nav {
+h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top > a {
+    text-decoration-line: none;
+}
+
+.nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: #eaece5;
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2c2bf;
+    height: auto;
 }
 
-main {
+.nav-link > a {
+    text-decoration: none;
+}
+
+.nav-link {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-link-text {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link-text:hover {
+    color: white;
+}
+
+/*-----------------------------------*/
+
+.main-index {
     background-color: #fff;
-    height: 400px;
+    height: 64vh; /* 64% from the screen vertical height */
+    display: flex;
+    flex-direction: row;
 }
 
 .picture {
@@ -38,28 +74,105 @@ main {
 .picture img {
     width: 20%;
     height: auto;
+    object-fit: cover; /* this is for the picture on the index site - picture are getting smaller when we are shrinking the screen, horizontal but not vertical */
 }
 
-footer {
-    background-color: #ffa500;
-    height: 50px;
+/* FLEXBOX for MAIN part of the boro site and css for Text and Style von MAIN part*/
+
+.main-boro {
+    display: flex;
+    flex-direction: row;
 }
 
-/* Text und co */
+        /* Style for MAIN Link bar and so on */
 
-h1 {
-    font-size: 4vw;
+.main-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    height: auto;
+    background-color: #3b3a30;
+}
+
+.link > a {
+    text-decoration: none;
+}
+
+.link {
+    margin: 10px;
+    text-align: center;
+}
+
+.bottom {
+    margin-top: auto;
+    padding: 20px;
+}
+
+
+.link-text {
+    text-decoration-line: none;
+    color: white;
+    padding: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
+/* Style for MAIN Info part and so on */
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaece5;
+    flex: 5;
+}
+
+.section {
+    margin: 20px;
+}
+
 h3 {
-    padding: 20px;
-    margin: 10px;
-    color: #ffa500;
+    padding: 10px;
+    color: #000;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    padding: 10px;
+    color: #000;
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
 }
 
 p {
-    font-size: 1vw;
+    padding: 10px;
+    font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
+}
+
+.section > img {
+    padding: 10px;
+}
+
+
+/* FLEXBOX for footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffa500;
+    height: auto;
+}
+
+.footer-text {
+    color: black; /* TEST */
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-link {
+    margin-right: 20px;
 }
